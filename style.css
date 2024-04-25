@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:#448658;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(75, 216, 75, 0.884),#135c29) ;
+    color: white;
+    padding: 20px 0px 41px 10px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header h1 {
+    text-align: center;
+   padding-bottom: 10px;
+   text-shadow: 1px 1px 2px black;
+}
+
+header p {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav{
+    background-color:#135c29;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: #5ec47d;
+    border-radius: 5px;
+    text-decoration: underline;
+    color: black;
+    transition: 0.5s;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 260px;
+
+    box-shadow: 0px 2px 7px black;
+}
+
+main h1 {
+    font-family: Android, sans-serif;
+    color:#1d522d;
+    padding: 10px;
+}
+
+main h2 {
+    font-family: Android, sans-serif;
+    color:#1b4b29;
+    background-image: linear-gradient(to right, #3c975785, transparent);
+    margin: 10px;
+}
+
+main p {
+    text-align: justify;
+    margin: 10px;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+picture.dan {
+  display: block;
+  text-align: center;
+}
+
+picture.irina {
+    display: block;
+    text-align: center;
+}
+
+img.bug {
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: #05200dde;
+    margin: 0px -20 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+    border-radius: 10px;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+    border-radius: 8px;
+}
+
+aside {
+    margin-top: 5px;
+    background-color: #5ec47dcc;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    background-color: #215a32de;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+aside > ul {
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 2;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #1b4b29;
+    color: white;
+}
+
+footer > p a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
